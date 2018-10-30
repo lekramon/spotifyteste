@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #666666;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+}
+
+.logo a>img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 132px;
+    height: 40px;
+    background-size: 132px 40px;
+    margin-left: 15px;
+}
+
+.itens{
+    color: white;
+    position: relative;
+    left: 250px;
+}
+
+.itens >a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 2.0;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1170px;
+    align-items: center;
+}
+
+#inscreva{
+    opacity: 0.7;
+}
+
+#entrar{
+    opacity: 0.7;
+}
